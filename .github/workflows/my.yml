@@ -1,9 +1,9 @@
 name: GitHub Action Intro
-run-name: ${{ github.actor }} is testing out GitHub Actions!
+run-name: 자기소개 ${{ github.actor }} is testing out GitHub Actions!
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🍎 My Name is ${{ github.name }}"
