@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🍎 My Name is ${{ github.name }}"
+      - run: echo "🍎 My Name is ${{ github.actor }}"
       - run: echo "🧁 ㅎㅎㅎㅎㅎ 테스트 하는중 한글도 잘 나오나 ?!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
